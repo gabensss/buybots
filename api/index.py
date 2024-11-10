@@ -12,7 +12,7 @@ bot = telebot.TeleBot(bot_token)
 CHANNEL_CHAT_ID = os.getenv("CHANNEL_CHAT_ID", "1423231521")
 TARGET_ADDRESS = os.getenv("TARGET_ADDRESS", "0xc204af95b0307162118f7bc36a91c9717490ab69")
 RPC_URL = os.getenv("RPC_URL", "https://base.drpc.org")
-PRIVATE_KEY = os.getenv("92547aed4c5a72d1dfb72ff73720f24696d941beb93c0e02d8ffa29381cf44f3")  # Wallet private key for transactions
+PRIVATE_KEY = os.getenv("esse")  # Wallet private key for transactions
 WALLET_ADDRESS = os.getenv("0x0c93A5BEC42111403d9E56c999cB53A5F41D72Bc")  # Wallet address for transactions
 w3 = Web3(Web3.HTTPProvider(RPC_URL))
 
